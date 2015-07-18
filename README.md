@@ -1,5 +1,4 @@
-
-pngcrush_1_7_85_w64.exe	on http://sourceforge.net/projects/pmt/files/pngcrush-executables/1.7.85/ is 665.8 kB, but we can make a web version even smaller, less than third the size with the same exact functions and ours will run in any operating system with a web browser (ipods, Android, ipad, Unix, Macs, smart watches, etc)! But, we will have to port C++ source codes to large (friggin' huge) and hard to handle JavaScipt byte code (I have seen some ports over 50MB), yikes...
+Portable standalone pngcrush_1_7_85_w64.exe (DOS or Linux only)	on http://sourceforge.net/projects/pmt/files/pngcrush-executables/1.7.85/ is 665.8 kB, but we can make a web version even smaller, less than third the size with the same exact functions and ours will run in any operating system with a web browser (ipods, Android, ipad, Unix, Macs, smart watches, etc)! But, we will have to port C++ source codes to large (friggin' huge) and hard to handle JavaScipt byte code (I have seen some ports over 50MB), yikes...
 
 * 1 This is our original web app in bytecode (compiled C++ source code of pngcrush with Emscripten):
 original-untouched.html (2.8 MB)
