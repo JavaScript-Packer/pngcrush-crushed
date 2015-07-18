@@ -19,6 +19,8 @@ compressed-PNG-LZF-only.html (834 KB) and compressed-GZIP-only.html (580 KB) wer
 
 * compressed-PNG-HACK-only.html (619 KB) was made @ http://www.whak.ca/packer/PNG.htm with the original 2,8 MB sample. JavaScript source code is actually turned into an embedded (datauri) PNG image with zlib compression!
 
+* alternate-PNG-Crush-original.html (2.1 MB) is an alternate compiled version that I find actually works in Google's Chrome web browser (the other requires FireFox) and gives back smaller PNGs. The LZMA packing did not work on it, but you can see the original file (2,100 KB), minified version (956 kilobytes) and a bzip2 compressed (246 KB, almost 90% reduction) version (just JavaScript is compressed).
+
 * We also added 2 other demos (3D gears and Hello World). Can you believe a Hello World compiled with Emscripten is almost 500 kB?
 
 # WTF? 
