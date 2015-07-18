@@ -1,5 +1,5 @@
 
-pngcrush_1_7_85_w64.exe	is 665.8 kB, we can make a web version even smaller!
+pngcrush_1_7_85_w64.exe	on http://sourceforge.net/projects/pmt/files/pngcrush-executables/1.7.85/ is 665.8 kB, but we can make a web version even smaller!
 
 *1 This is our original web app in bytecode (combiled C++ with Emscripten):
 original-untouched.html (2.8 MB)
