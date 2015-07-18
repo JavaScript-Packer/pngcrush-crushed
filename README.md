@@ -1,13 +1,13 @@
-#1 This is our original web app in bytecode:
+1 This is our original web app in bytecode:
 original-untouched.html (2.8 MB)
 
-#2 Here is a JavaScript minified version of the original web app:
+2 Here is a JavaScript minified version of the original web app:
 embed-JS-minified.html (1.07 MB)
 
-#3 Here is the original app only compressed with LZMA:
+3 Here is the original app only compressed with LZMA:
 compressed-LZMA-only.html (427 KB)
 
-#4 Here is the original minified and then LZMA compressed:
+4 Here is the original minified and then LZMA compressed:
 minifed-then-LZMA-compressed.html (271 KB)
 
 # pngcrush-crushed
