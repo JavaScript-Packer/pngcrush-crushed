@@ -11,7 +11,7 @@ compressed-LZMA-only.html (427 KB)
 minifed-then-LZMA-compressed.html (271 KB)
 
 compressed-BZIP-only.html (443 KB),
-compressed-PNG-LZF-only.html (834 KB) and compressed-GZIP-only.html (580 KB) were made on http://www.whak.ca/packer/JavaScript.htm (dragged & dropped the original HTML file in, compressed, changed eval to document write, added script tags and saved as HTML file) using the original file "original-untouched.html".
+compressed-PNG-LZF-only.html (834 KB) and compressed-GZIP-only.html (580 KB) were made on http://www.whak.ca/packer/JavaScript.htm (dragged & dropped the original HTML file in, compressed, changed eval to document write, added script tags and saved as HTML file) using the original 2,800 KB file called "original-untouched.html".
 
 compressed-PNG-HACK-only.html (619 KB) was made @ http://www.whak.ca/packer/PNG.htm with the original 2,8 MB sample. JavaScript source code is actually turned into an embedded (datauri) PNG image with zlib compression!
 
