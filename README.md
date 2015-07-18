@@ -1,4 +1,7 @@
-*1 This is our original web app in bytecode:
+
+pngcrush_1_7_85_w64.exe	is 665.8 kB, we can make a web version even smaller!
+
+*1 This is our original web app in bytecode (combiled C++ with Emscripten):
 original-untouched.html (2.8 MB)
 
 *2 Here is a JavaScript minified version of the original web app:
@@ -26,4 +29,4 @@ Client side decompression (extracts and runs in your web browser without need of
 * It is a free, open source command-line utility for optimizing PNG image files. It reduces the size of the file losslessly — that is, the resulting "crushed" image will have the same quality as the source image. The main purpose of pngcrush is to reduce the size of the PNG IDAT datastream by trying various combinations of compression methods and delta filters. However, pngcrush can also be used for various manipulations of PNG images, such as changing the bit depth, removing unwanted ancillary chunks, or adding certain chunks including gAMA, tRNS, iCCP, and textual chunks.
 * The pixel data in a PNG file is compressed using LZ77 algorithm (which tries to find repeated byte sequences in the source data), and then further compressed with Huffman algorithm. This combination is referred to as DEFLATE compression. Before compressing, non-destructive delta filters are applied on the pixel data.
 * pngcrush compresses the image with multiple different combinations and then stores the smallest of the resulting files. Since it is not possible to go through all the combinations, pngcrush uses heuristics to choose the methods to try.
-* http://pmt.sourceforge.net/pngcrush/
+* http://sourceforge.net/projects/pmt/files/
