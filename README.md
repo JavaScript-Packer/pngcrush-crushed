@@ -10,7 +10,8 @@ compressed-LZMA-only.html (427 KB)
 4 Here is the original minified and then LZMA compressed:
 minifed-then-LZMA-compressed.html (271 KB)
 
-compressed-BZIP-only.html (443 KB) and compressed-GZIP-only.html (580 KB) were made on http://www.whak.ca/packer/JavaScript.htm (dragged & dropped the original HTML file in, compressed, changed eval to document write, added script tags and saved as HTML file).
+compressed-BZIP-only.html (443 KB), compressed-PNG-HACK-only.html (619 KB, made @ http://www.whak.ca/packer/PNG.htm - JavaScript is actually turned into a PNG image with zlib compression),
+compressed-PNG-LZF-only.html (834 KB) and compressed-GZIP-only.html (580 KB) were made on http://www.whak.ca/packer/JavaScript.htm (dragged & dropped the original HTML file in, compressed, changed eval to document write, added script tags and saved as HTML file).
 
 # pngcrush-crushed
 Compress huge files produced by bytecode (WebAssembly)! I embed JS/CSS into a HTML web page and then compress it on www.scriptcompress.com/LZMA.htm - DEMO: PNGcrush (C++ compiled software.exe file converted to bytecode with Emscripten) compressed to a 420KB standalone web application (originally was over 2,800 KB) on http://jsfiddle.net/8gz9qr2y/show/. Now if I embed all HTML/CSS to JavaScript and then minify I got about 1MB before any real compression, but with compression ot gets down to 275 KB compressed: http://jsfiddle.net/d6Lntnqz/show/ (less than 10% the size of the original). Gzip alone only got the original down to 619 KB, so my tool beats gzip's ass, plus my compressed files self extract and execute with any web browser (mobile phone, tablets, #Linux ,  #Mac , ipad, #Windows , #wearables  etc) without any server needed (can even run offline, use free hosting spots that do not provide server side, embed to free blogs like blogger, etc)!
