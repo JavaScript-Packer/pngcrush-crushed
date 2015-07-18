@@ -12,7 +12,7 @@ compressed-LZMA-only.html (427 KB)
 * Number 4 Here is the original minified and then LZMA compressed:
 minifed-then-LZMA-compressed.html (271 KB)
 
-# Our winner is Number 4 @ 271 kB!
+# Our winner is Number 4 @ 271 kB! You can even host it on JSfiddle: http://jsfiddle.net/z7e0jthc/show/
 
 * compressed-BZIP-only.html (443 KB),
 compressed-PNG-LZF-only.html (834 KB) and compressed-GZIP-only.html (580 KB) were made on http://www.whak.ca/packer/JavaScript.htm (dragged & dropped the original HTML file in, compressed, changed eval to document write, added script tags and saved as HTML file) using the original 2,800 KB file called "original-untouched.html".
